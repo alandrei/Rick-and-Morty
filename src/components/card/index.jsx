@@ -1,4 +1,4 @@
-import React from "react";
+import React /*, { memo } */ from "react";
 
 import "./card.css";
 
@@ -11,4 +11,4 @@ const Card = ({ image, title, ...otherProps }) => {
   );
 };
 
-export default Card;
+export default Card; // @todo use memoization once enzyme will support it with shallow rendering

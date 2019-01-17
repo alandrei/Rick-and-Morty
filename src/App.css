@@ -3,13 +3,16 @@
 }
 
 .App-header {
-  align-items: flex-end;
   background-color: #eee;
   display: flex;
-  justify-content: flex-start;
-  padding: 20px;
+  justify-content: center;
+  padding: 10px;
 }
 
 .logo {
-  height: 30px;
+  height: 50px;
+}
+
+input:focus {
+  outline-color: #97ce4c;
 }

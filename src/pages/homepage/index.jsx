@@ -89,6 +89,7 @@ class Home extends Component {
               onClick={() => this.onSelectCard(item.id)}
             />
           ))}
+          {list.length === 0 && "No results found"}
         </Grid>
         {dialogOpen && (
           <Modal title={details.name} onClose={() => this.closeModal()}>
