@@ -4,6 +4,9 @@
   overflow: hidden;
   position: relative;
 }
+.card:focus {
+  outline-color: #97ce4c;
+}
 .image {
   width: 100%;
   filter: blur(0px);

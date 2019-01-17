@@ -1,1 +1,2 @@
-export const apiRoute = "https://rickandmortyapi.com/api";
+const apiRoute = 'https://rickandmortyapi.com/api';
+export default apiRoute;

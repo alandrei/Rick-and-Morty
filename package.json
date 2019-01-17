@@ -13,7 +13,7 @@
     "start": "HTTPS=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "react-scripts lint",
+    "lint": "eslint src/**/*.js src/**/*.jsx",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

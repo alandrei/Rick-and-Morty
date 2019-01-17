@@ -1,18 +1,16 @@
-import React from "react";
+import React from 'react';
 
-import "./list.css";
+import './list.css';
 
-const List = ({ items, ...otherProps }) => {
-  return (
+const List = ({ items, ...otherProps }) => (
     <ul className="list" {...otherProps}>
-      {Object.keys(items).map(key => (
-        <li key={key}>
-          <b>{key}</b>
-          <span>{items[key]}</span>
-        </li>
-      ))}
+        {Object.keys(items).map(key => (
+            <li key={key}>
+                <b>{key}</b>
+                <span>{items[key]}</span>
+            </li>
+        ))}
     </ul>
-  );
-};
+);
 
 export default List;

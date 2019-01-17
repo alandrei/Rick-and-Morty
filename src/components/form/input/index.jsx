@@ -1,8 +1,6 @@
-import React /*, { memo }*/ from "react";
-import "./input.css";
+import React /* , { memo } */ from 'react';
+import './input.css';
 
-const Input = props => {
-  return <input className="input-text" value={props.value} {...props} />;
-};
+const Input = props => <input className="input-text" {...props} />;
 
 export default Input; // @todo use memoization once enzyme will support it with shallow rendering

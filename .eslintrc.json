@@ -1,0 +1,13 @@
+{
+  "extends": "@endouble.com/eslint-config-endouble/react",
+  "globals": {
+    "fetch": true,
+    "document": true
+  },
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "react/prop-types": 0
+  }
+}
