@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+.image {
+  width: 100%;
+  filter: blur(0px);
+  transition: all 0.3s ease-in;
+  transform: scale(1.1);
+}
+.card:hover .image {
+  filter: blur(2px);
+  transform: scale(1);
+}
+.title {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  width: 100%;
+  transition: opacity 0.3s;
+}
+.card:hover .title {
+  opacity: 1;
+}
